@@ -67,5 +67,7 @@ module BlocReddit
     
     config.assets.initialize_on_precompile = false
 
+    # Enabling font-awesome for WrapBootstrap
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
   end
 end
